@@ -63,7 +63,7 @@ Get-Content -Path .\url.txt -Encoding UTF8 | ForEach-Object { Start-Process "chr
 
 ## URL ファイルの検証（簡単な確認コマンド）
 
-- PowerShell で確認（UTF-8 の場合）:
+- PowerShell で確認（UTF-8 の場��）:
 
 ```powershell
 Get-Content -Path .\url.txt -Encoding UTF8 | % { Write-Host $_ }
